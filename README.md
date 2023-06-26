@@ -1,4 +1,5 @@
 # 🎯 Coding Quizzes
+<img width="1680" alt="Screen Shot 2023-06-26 at 2 20 56 PM" src="https://github.com/RishabhSingh08/vueQuizApp/assets/92887139/61acbfec-6de7-4530-840b-1d56da172aa0">
 
 A web application for practicing coding quizzes in various programming languages.
 
