@@ -1,0 +1,1410 @@
+[
+  {
+    "id": 1,
+    "img": "https://images.hdqwalls.com/wallpapers/python-logo-4k-i6.jpg",
+    "name": "Python Basics",
+    "questions": [
+      {
+        "id": 1,
+        "text": "What is a correct syntax to output 'Hello World' in Python?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "echo 'Hello World'",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "println('Hello World')",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "console.log('Hello World')",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "print('Hello World')",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Which of the following is not a valid variable name in Python?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "my_variable",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "_private",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "1variable",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "variable1",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "What does the len() function do in Python?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Returns the sum of two numbers",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Returns the square root of a number",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Returns the length of a string, list, or tuple",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Returns the current date and time",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Which of the following is a correct way to open a file named \"data.txt\" in Python?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "file = open(\"data.txt\", \"w\")",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "file = open(\"data.txt\", \"write\")",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "file = open(\"data.txt\", mode=\"r\")",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "file = open(\"data.txt\", mode=\"append\")",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "What does the range() function return in Python?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "A list of numbers",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "A string of characters",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "A tuple of values",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "An iterator of numbers",
+            "isCorrect": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "img": "https://blog.logrocket.com/wp-content/uploads/2020/08/understandingpromiseallinjavascript.png",
+    "name": "JavaScript Fundamentals",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Which keyword is used to declare a variable that shouldn't be changed in JavaScript?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "var",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "let",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "const",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "int",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Which function is used to add an element to the end of an array in JavaScript?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "push()",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "pop()",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "shift()",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "unshift()",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "What does the '===' operator do in JavaScript?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Checks for strict equality, both in value and type",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Checks for equality, ignoring the type",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Assigns a value to a variable",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Performs mathematical addition",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Which built-in method returns the length of a string in JavaScript?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "size()",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "length()",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "count()",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "length",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Which event is triggered when a form is submitted?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "submit",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "click",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "change",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "keydown",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "img": "data:image/png;base64,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",
+    "name": "Java Fundamentals",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Which of the following is a valid identifier in Java?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "123abc",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "_myVar",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "class",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "my-variable",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Which keyword is used to define a constant in Java?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "static",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "final",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "abstract",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "public",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "What is a correct syntax to output 'Hello World' in Java?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "print('Hello World')",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "System.out.println('Hello World')",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "echo 'Hello World'",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Console.WriteLine('Hello World')",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Which of the following is NOT a primitive data type in Java?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "int",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "double",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "string",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "boolean",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Which of the following is used to create an object in Java?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "new",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "instanceof",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "extends",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "this",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "img": "https://wallpapercave.com/wp/wp2742456.jpg",
+    "name": "HTML/CSS Basics",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Which of the following is an HTML tag for creating a heading?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "<p>",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "<h1>",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "<div>",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "<span>",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "How do you style HTML?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Cascading Style Sheets",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Hypertext Markup Language",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "JavaScript",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Structured Query Language",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Which CSS property is used to change the background color of an element?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "background-image",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "background-color",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "text-align",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "font-size",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Which HTML tag is used to define an unordered list?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "<ul>",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "<li>",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "<ol>",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "<div>",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "What is the correct way to include an external CSS file in an HTML document?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "<style src=\"styles.css\">",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "<link rel=\"stylesheet\" href=\"styles.css\">",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "<script src=\"styles.css\">",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "<import href=\"styles.css\">",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "img": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQERISEBAVEhURFhoQGRYTEhcVExAVFhUWFhYYFhMYHSogGRolGxUYITEiJSkrLi4uGCEzODMtNygtLisBCgoKDg0OGxAQGzIiHyU1Ky0vLzEtLTUtLTUtLS03LS0tLS8tLS0tLS0vLTUtKy0tLS0tLS0tLS0tLS0tLTUtLf/AABEIAIwBaQMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABQYCAwQBB//EAEkQAAICAQEEBgYECQkJAQAAAAABAgMRBAUSITEGE0FRcYEHImGRobEUMlLBIyQzQlNykqLRYmNzdIKksrPwFhdDVJOUw+HxFf/EABkBAQADAQEAAAAAAAAAAAAAAAABAgMEBf/EACQRAQEBAAICAgEEAwAAAAAAAAABAgMRITESURMEIkFxFDJC/9oADAMBAAIRAxEAPwD7SAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADW7G3iMXLHkl5nqqsfNxj4JsDMGD08u2x+5JHiozytf7oHtlqjzf8fceKU3yh+08fDmcOs2xptPLq4711+M9VUusua75ccVx4c5OMfaV3aXSHVzbXXV6SPH1aILU6j2ZtniqD9ijPxLZzdekWyLhu2/Zi/CX/ox658nCWf1X8+R82ntzX0PrKNZdqN3i6tVGhwtXalKquMoSxyeWvYzpo9Jus1Ed7TbMUYPhv6jVRrXlBRcn5E649TxYTUr6D1r/Ry9w61/Yl+yUKHTTab+tDRQ9id9j+KibodNdaucdNLyuh8fW+RP4t/SPlPtdvpEe3K8U0bIzT5PJUKen8ljrtG33vT3Rsx/ZtVbfkmSuy+k2zdXLcruULf0dilRd5Qmk5eKyilzZ7iZe04DXKqceT313PhL39ohcn7Gux8GiEtgPN5d5jK2K5tAZg1KxvlCT8sfM9jas4aafc+AGwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADXfJpcOb4LxZsNeM2RXdmX3L5gQnTDbtmirop0lcbdVq59TTGbxBNLenZZjjuxXF+JVNpaW9vd1m1dXdNfWr0jjpaIv7O9Fb7XmSGs1HW7Y1N7+pszTR08e536jFkvPd3F5lb2vVC2Ddtk4JPrHKFkoNvjzlHi088jo4eKaltU3rrw2LZeh/O0rtfffqb7W/fPHwOPa2wtHdXuVaavTSzF9ZTv76SeWlmWOK4ZN2zJVuH4OUmu6c5TlH2Peba8DqbOqcWLPTL56YaCC09XVU+pB8ZJc7H9qcuc37Xk9bDZg2aSSelbe3rZE7KnuW6inshNWx/UtW9/j3iTbIefq6+P8AOadp+MLFj/EyuvFlTEu2YNkfDbenlc6FPNibjjdeN6Kba3sYzwfuO5smal9IssGzm1ukruju2wU1z4rin3p80/A3NmLZNnYy2V0k2js3HVzlrdOudN0m7a1/NXcW/B5LpT6S9mWRi7YX1tpNxno7ZOD7t6EWn5MozZAbfrUbKrpys6reULYwslHEG/rLHas/I5OXhzJ8o1zu3xX2BdPNj/pGvHSXr/xnj9IWx48VbLK7tLfn/LIXR+jHS2wU4ai/EuK/GZm//dVT/wAzqP8AuJ/wOb9rTyhtv+lTW4lZotLXXTX62dVvO25J9lcWtxeLbPpuy9bDV0xmo43oxlh84uUU+D8z5ltL0U6uXqLXdZTJreUql126nlpTTSb8j6VsHRdRXhrdSSil3RisLI18f+Sd/wAunTyzFN8zYatL9Ve3j7+JtKpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADDTfWm+7EfdxfzMyK21rPo+g1l/6Oq61eMYSx8kBSNHbnRyuf1toaq7Vv21qbhV5bkYEXtPSq2MU4qajZXa4SeI2xhOMpQb7MpYJfX0KivS6dctPp66/PdWfuOFs9HixPx9fbn1f3do/T6e2Wp1GqvcVK57kK4cI1Uwb6uPdlRwuHDn3nbKSXN4zw8WetkX1T+kJSslOKi7VGWMQlvKKxhJtYk8ZyXkmJ1EW93tJNlTn04qzwpm12Peis+RO7a1HV6e6a5quWPFrEfi0VLoFpk7LLGvycVFexyb4r24j8TLl3r5TOavmTq2u7/bir9BP9qJ1aTaVWovrug3u1027yaw4PeqeH5ZMOm1db07lJLfUoqD/Obb9ZZ7Vu5fkVvYtrr0+sl2OEa/7U5OPybMtb3nXxt7WmZZ3HHs7aLqvV7jvPelJrOM76eePf6xZ10zpfOqzycX95zdBtKvwtrXFYri+7tlj90w6dOO9TwW9ibb7WsxUc+akVz88Y+Uqb1ddJ+3bFS0/0hZlDuSxLO9u4w+TyRD6YV/oZ/tRI7XPq9n0Q7bZuzyzJ/fEmOilKhpoyxh2OUm+1pPdXliOfM0m961JL14V+OZO2iHS6lvjXNLv9V48sknrYxupkk1KNkG01yeVlMrfTCutWQcUlKUW5Y7ePqtrv5+4lthNx0kHLsU5f2d6TJxvV1ca8mpOpY+s+iTXO3Z9Cbzivd/6cnX8ki0xUm5/hJcJNcMcFzXYUz0O0uOh0+e2uU/KVja+Zd4fXs8Uvgjiai6xcpp/rLj8BJTlwlJY7orGfE2AAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPJFd6bSxsu2P6V10+PXX11tfvlhs5PwK108l+JaZfb1ejj/ean9wEB0knnU2+xqPuikRbZ2balnUXfry+ZB6LS3bRtnXVZKrT0vcsth+Uts7a6n2Jdsj0ruYxLXPM3VdOr1UKouVk1CK5tv8A1lnFsyTscr5Jx6xKMIvg1XHLTa7HJyb8MFwfom0NlW64Srk1wmpznapd7cpYfhgqejlbF3U6jHXaW3qLMcFLKzXNLsU48V4Mz4+ab11fC2sdRFdNr93SuP6ScY+SzJ/4St7Ajr4RlPSwzGfB53N2TjnlvtcsvkWnpFsiWqVaVigoOTeY7283hLtXLD952bP0qpqhUnlQWM4xl828e1tka47rk79QmpMqlfsbaGpmne0scMynDdiu3dhBv5eZIbV2JOOlhRp4776xTm24xc/Vlx4tLnjh7EWNswbL/gz5R+So7YGilRRGE1iTblJJp4bfLK4PgkQ3STZOovv3oQTioxgm5xSXNvKbzzb7CztmDZOuKXMyTVl7U/pa1GVNS5VVJe/h8oL3m3SLaUK1CEEopcN7qt6KfH85/M79dsPrb+tlZ6uYvc3OyKXDez247u0lpSMs8Nurb4Wu51FX03R+6ye/qZYy8v1lKc/NcF7/ACJXbU3GpVVr1rWqIRXfL1Ul5cCQbOjoFoFrdZK98Y6RqFcMfWsnn134Y4eXcNzPFm9e6S3VfWOhuz1RTGC5VQhSvbuxSf3Erp3nMvtSb8s8BGvqqlFc3w8ZP/XwM644SXdwONqyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAa9R9WXgyt+kN402j/r2j/z4Fmt5PwKv6QV+I6aX2NXo5f3itfeBTOluq6r6XZ2wdkl45ePiW/0a7JjTpaI44wrjN/yrLFvSb82/gUP0kZVetX8p/GxH1Toe06ItdsYe7cWDo/UXzP6U4/5SL1EnYsfUzuPhxb78+J816Z6KC2xZCUU4a/QOTXfbppOcZeKUeZ9Dh9SL7pp/vFM6fwf/AOvspx5yp1kfJVRf3mOfcXqpbJ0k0tW52SmquocM/mxs61NPveYLiZtnPVpLbHqZwm4qNFEmlZKO8pW2buUk02uPPlk2LguefHmz0MX3HPphqtRGuEpyziK3njjwXPge7+Vlcnx8TXqob0Jxf50XH3rBu6EdB3rNJVbVrLaZyjJuPqzrzGyUeEWuHJdpXk5fhfKc57amzBsnrPRntJctfFr+rRz/AJhlX6LtXL8pr7H/AEdddfx3mU/yc/Sfx1WNVqY1x3pvC4Llnm8IybIlbCX0ZW2RlKc6pWqUpyljDkk8Z4cjr0sJRhHfk5OUVLL7U14s1zq1Wzp0Nlk9Ey/D6v8Ap6374ZKu5Fo9FUvxnVfr0v3xkvuMv1P+q3H7fVb1myPsi355Nhhd+UX6r+ZmcTYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeSXBlZ9IFcpbJtlFOTo6vUYXNrT3Qtl8IMs5qrko5hPG7LOM8uPNMD4908cbYaqUHmNsOui1ylGUVZFryL/6Mr3PQ6dvm6Kn5qGH8iF2/wCjGVmY6TWTpoeV1DjGari3lxpm8OMeL9V5Szw4cC3dGNjrSVRrS3YwhGuKby1GK5t95pybmulczp0cotd0/clMqXpGvjp9bs3V3qSoqjqaZ2pZhTO+Fca9/ui8S4lxqjvKWeUm35Z4GTlGS6q6KlGS3fWSlGa7pJmaz4/sV70ddh/U0emnwfB/hbXx8l8Tmsi0327rw32ceXzLH0j2NDZNupto0svomt06pl1EcrSWwcnGUoLiq5b3Ncmitx2jRZG1wurku9Tj2QXtO/h3Nd1judNcpF49Di/EqPbGx++6R85lrOsbr08XfZL1VGpb2H3ykuEV7Wz616O9ly02mqqlhuqpQk1y3296WH45Mf1OpbJFuOLF1tjlNJxwnhZXsXtNmltk3JSxlYawscH/APDXTxc33yfw4fcezTTUo81wx3o5mj5BrnGC+iy9WzTVzonGXB8H6k0u2E4+sn7e9M0QqTgsr/gpfDP8D6xtXYuh1+PpOnrslHgushFzh4Nrl8Ck7W9H2tpf4hqK7auKVWpjLfgn2K2L9ZLsys+J1cfPJOtM9Y+lM2hQq9zH50c+faTnoqf41qv1qF54mY3dCtqX7sbHVQo8M1xstk1w5KSSXIvHQzofHQxUY73GXWSlN5stn3vHJcORHNy51OoYzZ7WbUflIeEvuMzCbzZ+qseb4/wMzmaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeSSfM9AGqMJR+pLC7mspCUZy4Slw7ksZNoA8SweWQUlhmQA1xulHhPivtJfNEffsHZ9r3nTU5Pt3YZ9zRKGEq4vml7gOSnZWlqWFhLuykvdHB1K6KW7VH3LEV/E9jVFcor3GYGFUN1Y/wBMzAAwsqjLmsnkd+P1Wmu6XP3mwAYddZ9mP7T/AIHjdkubUV/J5+9mwAYwgorCMgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//2Q==",
+    "name": "PHP Basics",
+    "questions": [
+      {
+        "id": 1,
+        "text": "What does PHP stand for?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Personal Home Page",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Hypertext Preprocessor",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "PHP: Hypertext Processor",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Pretext Hypertext Parser",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Which of the following is used to start a PHP block?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "<php>",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "<?php>",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "<script>",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "<?>",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Which of the following is used to output text in PHP?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "echo",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "print",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "console.log",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "alert",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Which of the following is NOT a PHP data type?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "String",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Boolean",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Number",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Object",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "What is the correct way to comment a single line in PHP?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "// This is a comment",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "# This is a comment",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "/* This is a comment */",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "// This is a comment",
+            "isCorrect": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "img": "data:image/png;base64,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",
+    "name": "Swift Programming",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Which keyword is used to declare a constant in Swift?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "var",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "let",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "const",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "static",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Which of the following is not a Swift data type?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "String",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Float",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Boolean",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Integer",
+            "isCorrect": false
+          },
+          {
+            "id": 5,
+            "label": "E",
+            "text": "Character",
+            "isCorrect": false
+          },
+          {
+            "id": 6,
+            "label": "F",
+            "text": "Double",
+            "isCorrect": false
+          },
+          {
+            "id": 7,
+            "label": "G",
+            "text": "Numeric",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "What is the correct syntax to declare a function in Swift?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "func myFunction() {}",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "function myFunction() {}",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "def myFunction() {}",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "void myFunction() {}",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Which control structure is used for repeated execution of a block of code in Swift?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "if-else",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "for-in",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "switch-case",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "while",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "What is the Swift standard library function to print output?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "print()",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "log()",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "console.log()",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "println()",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "img": "data:image/png;base64,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",
+    "name": "C# Programming",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Which of the following is the correct syntax to declare a variable in C#?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "int x;",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "x = 10;",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "var x = 10;",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "float x = 10.5f;",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Which of the following is the correct way to define a method in C#?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "void myMethod() {}",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "int myMethod() {}",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "string myMethod() {}",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "myMethod() {}",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Which of the following access modifiers provides the highest level of visibility in C#?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "public",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "protected",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "private",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "internal",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "What is the output of the following code snippet? int x = 5; Console.WriteLine(x++); ",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "5",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "6",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "0",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Compile-time error",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Which of the following is not a valid C# data type?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "bool",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "double",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "decimal",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "string[]",
+            "isCorrect": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Ruby Basics",
+    "img": "data:image/png;base64,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",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Which of the following is the correct way to define a variable in Ruby?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "var x = 10",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "let x = 10",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "x = 10",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "int x = 10",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "What is the output of the following code?  x = 5 puts x * 2",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "10",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "5",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "52",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "25",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "What is the purpose of the 'each' method in Ruby?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "To perform a loop over a collection",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "To define a class",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "To handle exceptions",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "To perform arithmetic operations",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Rust Programming Essentials",
+    "img": "data:image/jpeg;base64,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",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Which of the following is a valid way to declare a variable in Rust?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "let x = 10;",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "x := 10;",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "var x = 10;",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "int x = 10;",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "What is the output of the following code? let x = 5; println!(\"{}\", x * 2);",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "10",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "5",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "52",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "25",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Which of the following statements is true about Rust?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Rust has a strong focus on memory safety",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Rust is an interpreted language",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Rust is primarily used for front-end development",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Rust does not support parallel programming",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Go Programming Fundamentals",
+    "img": "https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Blue.png",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Which of the following is a valid way to declare a variable in Go?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "x := 10",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "let x = 10",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "var x = 10",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "int x = 10",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "What is the output of the following code? x := 5 fmt.Println(x * 2) ",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "10",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "5",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "52",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "25",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Which of the following statements is true about Go?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Go is a statically typed language",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Go is an interpreted language",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Go is primarily used for web development",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Go does not support concurrency",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  }
+]
